@@ -1,0 +1,36 @@
+name: JIRA
+channels:
+  - defaults
+dependencies:
+  - ca-certificates=2021.4.13=hecd8cb5_1
+  - certifi=2020.12.5=py38hecd8cb5_0
+  - libcxx=10.0.0=1
+  - libffi=3.3=hb1e8313_2
+  - ncurses=6.2=h0a44026_1
+  - openssl=1.1.1k=h9ed2024_0
+  - pip=21.1.1=py38hecd8cb5_0
+  - python=3.8.10=h88f2d9e_7
+  - readline=8.1=h9ed2024_0
+  - setuptools=52.0.0=py38hecd8cb5_0
+  - sqlite=3.35.4=hce871da_0
+  - tk=8.6.10=hb0a8c7a_0
+  - wheel=0.36.2=pyhd3eb1b0_0
+  - xz=5.2.5=h1de35cc_0
+  - zlib=1.2.11=h1de35cc_3
+  - pip:
+    - asgiref==3.2.10
+    - django==3.1
+    - django-cors-headers==3.4.0
+    - django-templated-mail==1.1.1
+    - djangorestframework==3.11.1
+    - djangorestframework-simplejwt==4.1.2
+    - djoser==2.0.3
+    - flake8==3.9.2
+    - mccabe==0.6.1
+    - pillow==8.2.0
+    - pycodestyle==2.7.0
+    - pyflakes==2.3.1
+    - PyJWT==1.7.1  # pyjwt==2.1.0 がデフォルトでインストールしていたがJWTが動作しないためダウングレード
+    - pytz==2021.1
+    - sqlparse==0.4.1
+prefix: /Users/tanakanaohitoshi/opt/anaconda3/envs/JIRA
